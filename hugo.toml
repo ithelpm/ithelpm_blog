@@ -1,4 +1,4 @@
 baseURL = 'https://ithelpm.github.io/ithelpm_blog/'
-languageCode = 'zh-Hant'
+languageCode = 'zh-TW'
 title = 'Ithelpm Blog'
 theme = "Hugo Theme Bootstrap"

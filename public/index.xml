@@ -5,9 +5,23 @@
     <link>https://ithelpm.github.io/ithelpm_blog/</link>
     <description>Recent content in Home on Ithelpm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hant</language>
+    <language>zh-TW</language>
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
     <atom:link href="https://ithelpm.github.io/ithelpm_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://ithelpm.github.io/ithelpm_blog/about/about/</link>
+      <pubDate>Sat, 23 Dec 2023 18:35:55 +0800</pubDate>
+      <guid>https://ithelpm.github.io/ithelpm_blog/about/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Docker</title>
+      <link>https://ithelpm.github.io/ithelpm_blog/post/the-docker/</link>
+      <pubDate>Sat, 23 Dec 2023 17:45:45 +0800</pubDate>
+      <guid>https://ithelpm.github.io/ithelpm_blog/post/the-docker/</guid>
+      <description>Hello My Docker 第一個網站</description>
+    </item>
     <item>
       <title>Post 3</title>
       <link>https://ithelpm.github.io/ithelpm_blog/posts/post-3/</link>
