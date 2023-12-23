@@ -1,4 +1,4 @@
-baseURL = 'https://ithelpm.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "Hugo Bootstrap Theme"
+baseURL = 'https://ithelpm.github.io/ithelpm_blog/'
+languageCode = 'zh-Hant'
+title = 'Ithelpm Blog'
+theme = "Hugo Theme Bootstrap"
