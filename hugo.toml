@@ -1,4 +1,29 @@
 baseURL = 'https://ithelpm.github.io/ithelpm_blog/'
 languageCode = 'zh-TW'
 title = 'Ithelpm Blog'
-theme = "Hugo Theme Bootstrap"
+theme = "tailwind"
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/blog/posts'
+weight = 20
+
+# [[menus.main]]
+# name = 'Abouts'
+# pageRef = '/abouts'
+# weight = 20
+
+# [[menus.main]]
+# name = 'Tags'
+# pageRef = '/tags'
+# weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

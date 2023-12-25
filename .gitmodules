@@ -1,3 +1,6 @@
 [submodule "themes/hugo_theme_bootstrap"]
 	path = themes/hugo_theme_bootstrap
 	url = https://github.com/razonyang/hugo-theme-bootstrap
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
