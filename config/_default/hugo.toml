@@ -12,20 +12,27 @@ ignoreErrors = ["error-remote-getjson"]
 enableRobotsTXT = true
 enableEmoji = true
 
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
 
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+[[module.mounts]]
+source = 'static/images'
+target = 'assets/images'
+
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
 
 [[menus.main]]
 name = 'Posts'
-pageRef = 'blog/posts'
+pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
 name = 'Abouts'
-pageRef = '/blog/abouts/'
+pageRef = '/abouts/'
 weight = 20
 
 # [[menus.main]]
@@ -33,6 +40,13 @@ weight = 20
 # pageRef = '/tags'
 # weight = 30
 
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
 
 [build]
   [build.buildStats]
@@ -73,4 +87,3 @@ weight = 20
   [module.hugoVersion]
     extended = false
     min = "0.120.0"
-
