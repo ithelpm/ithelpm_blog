@@ -12,14 +12,6 @@ ignoreErrors = ["error-remote-getjson"]
 enableRobotsTXT = true
 enableEmoji = true
 
-[[module.mounts]]
-source = 'assets'
-target = 'assets'
-
-[[module.mounts]]
-source = 'static/images'
-target = 'assets/images'
-
 # [[menus.main]]
 # name = 'Home'
 # pageRef = '/'
@@ -87,3 +79,14 @@ target = 'static/images'
   [module.hugoVersion]
     extended = false
     min = "0.120.0"
+
+[giscus]
+  enabled = true
+  repo = 'ithelpm/ithelpm_blog'
+  repoId= 'R_kgDOK85-wg'
+  category =  'Show and tell'
+  categoryId = 'DIC_kwDOK85-ws4CcAB0'
+  mapping = 'pathname'
+  reactionsEnabled = '1'
+  emitMetadata = '0'
+  lang = 'zh-TW'

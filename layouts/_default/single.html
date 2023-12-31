@@ -27,7 +27,7 @@
       {{ .Content | safeHTML }}
     </article>
 
-    {{ partial "comments.html" . }}
+    {{ partial "comment/giscus.html" . }}
   </div>
 </div>
 {{ end }}

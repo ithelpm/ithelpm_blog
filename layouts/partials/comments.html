@@ -8,7 +8,7 @@ or whatever comment engine you want -> https://gohugo.io/content-management/comm
 
 {{ if .Site.Config.Services.Disqus.Shortname }}
   {{ template "_internal/disqus.html" . }}
-{{ else if .Site.Params.giscus.enabled }}
+{{else if .Site.Params.giscus.enabled }}
   {{ with .Site.Params.giscus }}
 <script type="text/javascript">
   (function() {
