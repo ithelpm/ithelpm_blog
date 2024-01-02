@@ -81,11 +81,10 @@ target = 'static/images'
     min = "0.120.0"
 
 [giscus]
-  enabled = true
   repo = 'ithelpm/ithelpm_blog'
   repoId= 'R_kgDOK85-wg'
-  category =  'Show and tell'
-  categoryId = 'DIC_kwDOK85-ws4CcAB0'
+  category =  'General'
+  categoryId = 'DIC_kwDOK85-ws4CcABx'
   mapping = 'pathname'
   reactionsEnabled = '1'
   emitMetadata = '0'
