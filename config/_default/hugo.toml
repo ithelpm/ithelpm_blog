@@ -17,15 +17,21 @@ enableEmoji = true
 # pageRef = '/'
 # weight = 10
 
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
 
-[[menus.main]]
-name = 'Abouts'
-pageRef = '/abouts/'
-weight = 20
+
+[menus]
+  [[menus.main]]
+    name = 'Abouts'
+    pageRef = '/abouts/'
+    weight = 20
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+  [[menus.main]]
+    name = 'Java'
+    pageRef = '/java'
+    weight = 20
 
 # [[menus.main]]
 # name = 'Tags'
