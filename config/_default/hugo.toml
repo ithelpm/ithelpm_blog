@@ -32,6 +32,10 @@ enableEmoji = true
     name = 'Java'
     pageRef = '/java'
     weight = 20
+  [[menus.main]]
+    name = 'Docker'
+    pageRef = '/docker'
+    weight = 20
 
 # [[menus.main]]
 # name = 'Tags'
