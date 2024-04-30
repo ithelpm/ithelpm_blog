@@ -1,7 +1,7 @@
 +++
-title = 'Docker之路-The Docker'
+title = 'Docker-Ch.1'
 date = 2024-01-02T15:55:57+08:00
-draft = false
+draft = true
 +++
 
 ## Docker
@@ -20,9 +20,7 @@ Docker是一個開放原始碼的開放平臺軟體，可用於部署應用程�
 
 每當我想建立一個伺服器，我就建立一個Docker container，顧名思義的就是一個容器，mount到一個volume(可想像成硬碟)，在container中執行一個獨立的環境，就像是虛擬機一樣，然後將伺服器的25565 port轉發到伺服器中其他沒有使用的port。
 
-![Mount](https://docs.docker.com/storage/images/types-of-mounts-bind.webp?w=450&h=300)
-
-(圖片來源: https://docs.docker.com/storage/bind-mounts/)
+![Mount](https://docs.docker.com/storage/images/types-of-mounts-bind.webp?w=450&h=300)(圖片來源: https://docs.docker.com/storage/bind-mounts/)
 
 上圖是Docker mount的方式，之後可以再另一篇說明。
 

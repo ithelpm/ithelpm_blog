@@ -1,5 +1,5 @@
 # SEO keywords and description for your site.
-keywords = "hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind, ithelpm"
+keywords = "hugo, tailwind, tailwindcss, ithelpm, OMV, Docker, NAS, Programming Language"
 subtitle = "The ITHelpM's Blog"
 
 # dir name of your blog content (default is `content/posts`).
@@ -11,6 +11,11 @@ contentTypeName = "posts"
 toc = false
 
 showReadingTime = false
+
+[search]
+  summaryInclude = 180 # show only part of content in search result.
+  minMatchCharLength = 2 # https://www.fusejs.io/api/options.html#minmatchcharlength
+  threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
 
 [header]
   logo = "favicon.ico"
@@ -27,12 +32,12 @@ showReadingTime = false
 # giscus is comments system powered by GitHub Discussions
 # generate configurations from https://giscus.app/
 [giscus]
-  enabled = false
-  repo = "ithelpm_blog"
-  repoID = "734953154"
-  # category = "your-category"
-  # categoryID = "your-category-id"
-  # mapping = "pathname"
+  enabled = true
+  repo = "ithelpm/ithelpm_blog"
+  repoID = "R_kgDOK85-wg"
+  category = "General"
+  categoryID = "DIC_kwDOK85-ws4CcABx"
+  mapping = "pathname"
   strict = "0"
   reactionsEnabled = "1"
   emitMetadata = "0"

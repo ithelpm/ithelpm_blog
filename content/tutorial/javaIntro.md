@@ -1,7 +1,8 @@
 +++
-title = 'Intro'
+title = 'Java Intro'
 date = 2024-03-12T13:47:16+08:00
-draft = false
+draft = true
+tags = ['Java', 'Programming', 'Tutorial']
 +++
 
 在此分類中將會介紹關於Java的細節，其中會用標題分類，可用``shift+f``搜尋。
